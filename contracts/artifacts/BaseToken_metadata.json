@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum TokenType",
+						"name": "tokenType",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "version",
+						"type": "uint256"
+					}
+				],
+				"name": "TokenCreated",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Test_contract.sol": "BaseToken"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Test_contract.sol": {
+			"keccak256": "0x9b5d9f1c84d662d05d9572c9e6b5dbe3621b2cc775f4fadb445b702cdf716fe3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f91dd512fe4645070a726cc0f7dc616501fc013c581d1391d9d14a8c648b5248",
+				"dweb:/ipfs/QmbUA2SJt1Zhf7cT18CjbeyJtJQvDjAgV2aAYqLhRAk2dT"
+			]
+		}
+	},
+	"version": 1
+}
